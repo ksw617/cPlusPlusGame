@@ -1,23 +1,12 @@
 #pragma once
 #include "Header.h"
+#include "Singleton.h"
 
 #define MAP_WIDHT 40
 #define MAP_HEIGHT 40
 
-class MapManager
+class MapManager : public Singleton<MapManager>
 {
-private:
-	static MapManager* instance;
-public:
-	static MapManager* Instance()
-	{
-		if (instance == nullptr)
-		{
-			instance = new MapManager;
-		}
-
-		return instance;
-	}
 public:
 	BYTE map[MAP_HEIGHT][MAP_WIDHT] =
 	{

@@ -3,7 +3,7 @@
 #include "Menu.h"
 #include "Stage.h"
 
-SceneManager* SceneManager::instance = nullptr;
+//SceneManager* SceneManager::instance = nullptr;
 
 void SceneManager::LoadScene(SCENE_ID id)
 {

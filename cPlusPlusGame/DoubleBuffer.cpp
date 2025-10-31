@@ -1,7 +1,5 @@
 #include "DoubleBuffer.h"
 
-DoubleBuffer* DoubleBuffer::instance = nullptr;
-
 void DoubleBuffer::InitBuffer()
 {
 	//현재 스크린 index값은 0

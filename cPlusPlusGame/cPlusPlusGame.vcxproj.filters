@@ -46,6 +46,18 @@
     <Filter Include="Source Files\00.GameManager\02.MapManager">
       <UniqueIdentifier>{1f6b0aa0-65ed-433e-8553-ee74d4b2cf17}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\02.Object\01.Bullet">
+      <UniqueIdentifier>{4bcad3e9-30cd-4e01-9be6-b125e900c2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\00.GameManager\03.ObjectPoolManager">
+      <UniqueIdentifier>{467d371b-dfef-4d25-bd3d-915056d2c989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99.Utils">
+      <UniqueIdentifier>{5b3b5fcb-0b64-46c4-8b15-d862aaec4aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99.Utils\00.Singleton">
+      <UniqueIdentifier>{2473d44c-7922-4f64-9690-365f0cbaf4e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cMain.cpp">
@@ -77,6 +89,15 @@
     </ClCompile>
     <ClCompile Include="MapManager.cpp">
       <Filter>Source Files\00.GameManager\02.MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\02.Object\01.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPoolManager.cpp">
+      <Filter>Source Files\00.GameManager\03.ObjectPoolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Source Files\99.Utils\00.Singleton</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +136,15 @@
     </ClInclude>
     <ClInclude Include="MapManager.h">
       <Filter>Source Files\00.GameManager\02.MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\02.Object\01.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolManager.h">
+      <Filter>Source Files\00.GameManager\03.ObjectPoolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Source Files\99.Utils\00.Singleton</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
