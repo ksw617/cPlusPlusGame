@@ -3,8 +3,8 @@
 class Bullet : public Object
 {
 public:
-	Bullet(int _x, int _y, COLOR _color, const char* _shape)
-		: Object(_x, _y, _color, _shape) {
+	Bullet(COLOR _color, const char* _shape)
+		: Object(false, 0, 0, _color, _shape) {
 	}
 public:
 	virtual void Init() override;

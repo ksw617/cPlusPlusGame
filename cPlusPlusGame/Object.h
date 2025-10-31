@@ -4,6 +4,7 @@
 class Object
 {
 public:
+	bool act;
 	int x;
 	int y;
 	COLOR color;
@@ -12,6 +13,9 @@ public:
 	Object() = default;
 	Object(int _x, int _y, COLOR _color, const char* _shape) 
 		: x(_x), y(_y), color(_color), shape(_shape) {}
+	Object(bool _act, int _x, int _y, COLOR _color, const char* _shape)
+		: act(_act), x(_x), y(_y), color(_color), shape(_shape) {
+	}
 public:
 	virtual void Init() abstract;
 	virtual	void Update() abstract;
