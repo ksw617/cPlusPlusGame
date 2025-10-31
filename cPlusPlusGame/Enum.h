@@ -1,0 +1,29 @@
+#pragma once
+#include "Define.h"
+
+enum class SCENE_ID : BYTE
+{
+	LOGO,
+	MENU,
+	STAGE,
+};
+
+enum class COLOR : BYTE
+{
+	BLACK,
+	BLUE,
+	GREEN,
+	CYAN,
+	RED,
+	MAGENTA,
+	BROWN,
+	LIGHTGRAY,
+	DARKGRAY,
+	LIGHTBLUE,
+	LIGHTGREEN,
+	LIGHTCYAN,
+	LIGHTRED,
+	LIGHTMAGENTA,
+	YELLOW,
+	WHITE,
+};

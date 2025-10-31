@@ -1,10 +1,21 @@
 #include "Stage.h"
-#include "DoubleBuffer.h"
+#include "Player.h"
+
+Stage::~Stage()
+{
+	if (player != nullptr)
+	{
+		delete player;
+		player = nullptr;
+	}
+}
 
 void Stage::Init()
 {
+	player = new Player(10,10,COLOR::YELLOW, "¿Ê");
+	player->Init();
 }
 void Stage::Update()
 {
-	DoubleBuffer::Instance()->WriteBuffer(10, 10, "STAGE", COLOR::LIGHTBLUE);
+	player->Update();
 }

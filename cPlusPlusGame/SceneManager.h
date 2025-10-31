@@ -1,5 +1,5 @@
 #pragma once
-#include "Header.h"
+#include "Enum.h"
 class SceneManager
 {
 private:
