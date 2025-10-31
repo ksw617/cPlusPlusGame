@@ -1,5 +1,6 @@
 #include "Stage.h"
 #include "Player.h"
+#include "MapManager.h"
 
 Stage::~Stage()
 {
@@ -18,4 +19,7 @@ void Stage::Init()
 void Stage::Update()
 {
 	player->Update();
+	MapManager::Instance()->Update();
+
+	
 }

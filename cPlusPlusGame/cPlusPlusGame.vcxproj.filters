@@ -43,6 +43,9 @@
     <Filter Include="Header Files\Include">
       <UniqueIdentifier>{fd58d5de-b58e-4fa5-8ca8-38b5c5e99068}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\00.GameManager\02.MapManager">
+      <UniqueIdentifier>{1f6b0aa0-65ed-433e-8553-ee74d4b2cf17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cMain.cpp">
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Source Files\02.Object\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files\00.GameManager\02.MapManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +112,9 @@
     </ClInclude>
     <ClInclude Include="Enum.h">
       <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Source Files\00.GameManager\02.MapManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
